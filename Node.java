@@ -1,0 +1,13 @@
+package com.greatelearning.lab3;
+
+public class Node {
+		Node  left;
+		int data;
+		Node  right;
+		public Node(int data) {
+			this.left=null;
+			this.data=data;
+			this.right=null;
+	}
+
+}
